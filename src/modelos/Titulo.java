@@ -2,63 +2,23 @@ package modelos;
 import com.google.gson.annotations.SerializedName;
 
 public class Titulo implements Comparable<Titulo> {
-    @SerializedName("Title")
-    private String nome;
-    @SerializedName("Year")
-    private int anoDeLancamento;
-    private boolean incluidoNoPlano;
-    private double somaDasAvaliacoes;
-    private int totalDeAvaliacoes;
-    private int duracaoEmMinutos;
+    @SerializedName("base_code")
+    private String base_code;
+    @SerializedName("target_code")
+    private String target_code;
+    @SerializedName("conversion_rate")
+    private String conversion_rate;
 
-    public String getNome() {
-        return nome;
+    public String getConversion_rate() {
+        return conversion_rate;
     }
 
-    public int getAnoDeLancamento() {
-        return anoDeLancamento;
+    public String getBase_code() {
+        return base_code;
     }
 
-    public boolean isIncluidoNoPlano() {
-        return incluidoNoPlano;
-    }
-
-    public int getDuracaoEmMinutos() {
-        return duracaoEmMinutos;
-    }
-
-    public int getTotalDeAvaliacoes() {
-        return totalDeAvaliacoes;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setAnoDeLancamento(int anoDeLancamento) {
-        this.anoDeLancamento = anoDeLancamento;
-    }
-
-    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
-        this.incluidoNoPlano = incluidoNoPlano;
-    }
-
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinutos = duracaoEmMinutos;
-    }
-
-    public void exibeFichaTecnica(){
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoDeLancamento);
-    }
-
-    public void avalia(double nota){
-        somaDasAvaliacoes += nota;
-        totalDeAvaliacoes++;
-    }
-
-    public double pegaMedia(){
-        return somaDasAvaliacoes / totalDeAvaliacoes;
+    public String getTarget_code() {
+        return target_code;
     }
 
     @Override
@@ -68,7 +28,7 @@ public class Titulo implements Comparable<Titulo> {
 
     @Override
     public String toString() {
-        return "nome='" + nome + '\'' +
-                ", anoDeLancamento=" + anoDeLancamento;
+        String texto = "1 " + base_code + " = " + conversion_rate + " " + target_code;
+        return texto;
     }
 }
