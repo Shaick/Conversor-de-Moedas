@@ -1,7 +1,11 @@
+.gitattributes
+.gitignore
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -29,6 +33,13 @@ bin/
 .DS_Store
 # Ignore Gradle project-specific cache directory
 .gradle
+.app
+gradle/
+app/
 
 # Ignore Gradle build output directory
 build
+# Ignore Gradle
+gradlew
+gradlew.bat
+settings.gradle
