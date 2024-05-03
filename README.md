@@ -6,4 +6,4 @@
 
 
 
-[JAVA][https://expo.io/](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html)
+[JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html)
