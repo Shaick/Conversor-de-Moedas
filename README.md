@@ -6,12 +6,9 @@
   <br>
 <p align="left">O app possui duas classes: [Painel] e [ExagerateApi]</p>
 
-<p align="left">O app possui duas classes: </p>[Painel](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/Painel.java) e [ExagerateApi](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/ExchangerateApi.java)
+<p align="left">O app possui duas classes: </p>
 
-
-
-
-
+[Painel](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/Painel.java) e [ExagerateApi](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/ExchangerateApi.java)
 
 
 [JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html)
