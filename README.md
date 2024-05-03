@@ -15,6 +15,9 @@
 <p align="center">Serializa o json recebido pela Api</p>
 
 [Api Utilizada]: <p align="center">Open Exchange Rates - Open Exchange Rates</p>
+![Captura de tela 2024-05-03 155813](https://github.com/Shaick/Conversor-de-Moedas/assets/60528183/73607da4-beaf-437a-9f6a-a4f355bc1654)
+
+
 
 Compilado com:
 [JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html) 
