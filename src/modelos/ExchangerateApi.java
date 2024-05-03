@@ -1,7 +1,7 @@
 package modelos;
 import com.google.gson.annotations.SerializedName;
 
-public class Titulo implements Comparable<Titulo> {
+public class ExchangerateApi implements Comparable<ExchangerateApi> {
     @SerializedName("base_code")
     private String base_code;
     @SerializedName("target_code")
@@ -9,8 +9,9 @@ public class Titulo implements Comparable<Titulo> {
     @SerializedName("conversion_rate")
     private String conversion_rate;
 
-    public String getConversion_rate() {
-        return conversion_rate;
+    public double getConversion_rate() {
+        double cr = Double.parseDouble(conversion_rate);
+        return cr;
     }
 
     public String getBase_code() {
@@ -22,13 +23,14 @@ public class Titulo implements Comparable<Titulo> {
     }
 
     @Override
-    public int compareTo(Titulo o) {
+    public int compareTo(ExchangerateApi o) {
         return 0;
     }
 
     @Override
     public String toString() {
-        String texto = "1 " + base_code + " = " + conversion_rate + " " + target_code;
+        double cr = Double.parseDouble(conversion_rate);
+        String texto = String.format("1 %s = %.2f %s \n", base_code, cr, target_code); //= "1 " + base_code + " = " +  conversion_rate + " " + target_code;
         return texto;
     }
 }
