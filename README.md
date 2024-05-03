@@ -14,4 +14,7 @@
 [ExchangerateApi]:
 <p align="center">Serializa o json recebido pela Api</p>
 
-[JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html)
+[Api Utilizada]: <p align="center">Open Exchange Rates - Open Exchange Rates</p>
+
+Compilado com:
+[JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html) 
