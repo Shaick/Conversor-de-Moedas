@@ -6,7 +6,7 @@
   <br>
 <p align="left">O app possui duas classes: [Painel] e [ExagerateApi]</p>
 
-<p align="left">O app possui duas classes: [Painel](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/Painel.java) e [ExagerateApi](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/ExchangerateApi.java)</p>
+<p align="left">O app possui duas classes: </p>[Painel](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/Painel.java) e [ExagerateApi](https://github.com/Shaick/Conversor-de-Moedas/blob/main/src/modelos/ExchangerateApi.java)
 
 
 
