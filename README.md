@@ -16,11 +16,19 @@
 
 [Api Utilizada]: <p align="center">Open Exchange Rates - Open Exchange Rates</p>
 
-![Uploading Badge-Conversor.png…]()
-
 
 ![Captura de tela 2024-05-03 155813](https://github.com/Shaick/Conversor-de-Moedas/assets/60528183/2122c000-2682-452c-a5f6-1027c565a421)
 
 
 Compilado com:
 [JAVA](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html) 
+
+
+## LinkedIn 
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIn Wilson Cardoso: Shaick](https://www.linkedin.com/in/shaick/)
+
+## Youtube
+![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white) [Meu Canal](https://www.youtube.com/channel/UCkmng9THj4jMxrk8963ZxLg)
+
+
+![Uploading Badge-Conversor.png…]()
